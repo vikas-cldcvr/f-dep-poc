@@ -1,0 +1,1 @@
+:host button{flex:0 0 auto;border-radius:4px;background-color:#028bfc;height:36px;justify-content:flex-start;padding:16px;border-style:none;color:#fff;font-family:inherit;cursor:pointer;display:inline-flex;align-items:center;justify-content:center}:host button>span{z-index:1}:host button:hover{filter:saturate(.5)}
