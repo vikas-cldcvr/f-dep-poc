@@ -1,6 +1,6 @@
 {
   "name": "f-button-poc",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "button poc",
   "module": "dist/flow-core.es.js",
   "typings": "dist/types/index.d.ts",
@@ -24,7 +24,7 @@
   ],
   "dependencies": {
     "lit": "^2.2.4",
-    "f-core-poc": "^1.0.2"
+    "f-core-poc": "^1.0.3"
   },
   "devDependencies": {
     "@custom-elements-manifest/analyzer": "^0.5.7",

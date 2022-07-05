@@ -1,3 +1,4 @@
+import core from "f-core-poc";
 /**
  * @license
  * Copyright 2019 Google LLC
@@ -565,17 +566,6 @@ const n$1 = (n2) => (e2) => typeof e2 == "function" ? ((n3, e3) => (window.custo
 var n;
 ((n = window.HTMLSlotElement) === null || n === void 0 ? void 0 : n.prototype.assignedElements) != null ? (o2, n2) => o2.assignedElements(n2) : (o2, n2) => o2.assignedNodes(n2).filter((o3) => o3.nodeType === Node.ELEMENT_NODE);
 var buttonStyle = /* @__PURE__ */ (() => ":host button{flex:0 0 auto;border-radius:4px;background-color:#028bfc;height:36px;justify-content:flex-start;padding:16px;border-style:none;color:#fff;font-family:inherit;cursor:pointer;display:inline-flex;align-items:center;justify-content:center}:host button>span{z-index:1}:host button:hover{filter:saturate(.5)}\n")();
-var core = {
-  getConfig: function() {
-    return {
-      theme: "dark"
-    };
-  },
-  getCurrentDateTime: function() {
-    var d2 = new Date();
-    return d2.toLocaleDateString() + " " + d2.toLocaleTimeString();
-  }
-};
 var __defProp = Object.defineProperty;
 var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
 var __decorateClass = (decorators, target, key, kind) => {
